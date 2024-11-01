@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+.next/cache/
+
+# Static files
+*.log
+yarn.lock
+npm-debug.log*
+pnpm-debug.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Ignored by default, but can be useful if storing lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs and other output
+logs
+*.log
+*.gz
+.vscode/
+
+# Editor and OS specific files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Tailwind CSS
+tailwind.config.js
+tailwind.config.ts
+
+# Jest coverage
+coverage/
+jest.config.js
+jest.config.ts
+
+# ESLint and Prettier
+.eslintcache
+.prettierignore
+.prettiercache
+.nyc_output/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*.pid
+
+# Parcel-bundled builds
+.parcel-cache
+
+# Visual Studio Code settings
+.vscode/
+
+# Next.js specific
+.vercel/
+.env.build
